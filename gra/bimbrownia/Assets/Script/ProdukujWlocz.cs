@@ -5,6 +5,7 @@ using UnityEngine;
 public class ProdukujWlocz : MonoBehaviour
 {
     public GameObject EkwipunekProdukcji;
+    public GameObject UlepszenieEkwip;
 
     public void EkwipunekProdukcyjny()
     {
@@ -14,5 +15,16 @@ public class ProdukujWlocz : MonoBehaviour
     public void EkwipunekProdukcyjnyWylocz()
     {
         EkwipunekProdukcji.SetActive(false);
+    }
+
+    //
+    public void UlepszenieE()
+    {
+        UlepszenieEkwip.SetActive(true);
+    }
+
+    public void UlepszenieEWylocz()
+    {
+        UlepszenieEkwip.SetActive(false);
     }
 }
