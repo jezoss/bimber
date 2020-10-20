@@ -55,13 +55,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\IleCzegoMamy.cs" />
-     <Compile Include="Assets\Script\JakiMamySprzet.cs" />
-     <Compile Include="Assets\Script\Mapa.cs" />
-     <Compile Include="Assets\Script\ProdukujWlocz.cs" />
-     <Compile Include="Assets\Script\Tworz.cs" />
-     <Compile Include="Assets\Script\TworzenieWyloczniekliku.cs" />
-     <Compile Include="Assets\Script\Zegar.cs" />
+     <Compile Include="Assets\Script\Swiat\Mapa.cs" />
+     <Compile Include="Assets\Script\Swiat\Zegar.cs" />
+     <Compile Include="Assets\Script\las\IleCzegoMamy.cs" />
+     <Compile Include="Assets\Script\las\JakiMamySprzet.cs" />
+     <Compile Include="Assets\Script\las\ProdukujWlocz.cs" />
+     <Compile Include="Assets\Script\las\Tworz.cs" />
+     <Compile Include="Assets\Script\las\TworzenieWyloczniekliku.cs" />
  <Reference Include="UnityEngine">
  <HintPath>F:/Unity/engine/2019.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
